@@ -35,7 +35,6 @@ export default async function handler(req, res) {
         cancel_url: `${req.headers.origin}/cart`,
       };
       const session = await stripe.checkout.sessions.create(params);
-      console.log(session);
       res.status(200).json(session);
     } catch (error) {
       res.status(500).json(error.message);

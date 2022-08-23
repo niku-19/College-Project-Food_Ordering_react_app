@@ -6,7 +6,6 @@ import { UilShoppingBag, UilReceipt } from "@iconscout/react-unicons";
 import { useStore } from "../store/store";
 import { useEffect, useState } from "react";
 import { toast } from "react-hot-toast";
-
 import { useRouter } from "next/router";
 export default function Header() {
   const router = useRouter();
@@ -33,7 +32,7 @@ export default function Header() {
               <a href="../"> HOME </a>
             </li>
             <li>
-              <a href="">MENU </a>
+              <a href="#MenuSection">MENU </a>
             </li>
             <li>
               <a href=""> CONTACT </a>

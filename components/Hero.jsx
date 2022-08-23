@@ -26,7 +26,9 @@ export default function Hero() {
             Our Mission Is To Filling Your Tummy With Delicious Food and With
             Fast and Free Delivery
           </span>
+          <a href="#MenuSection">
           <button className={`btn ${css.btn}`}>Get Started</button>
+          </a>
         </div>
         {/* right side */}
         <div className={css.right}>
@@ -37,7 +39,7 @@ export default function Hero() {
           <div className={css.contactUs}>
             <span>Contact Us</span>
             <div>
-              <UilPhone color="white" />
+             <a href="tel:6203601618"> <UilPhone color="white" /> </a>
             </div>
           </div>
           <div className={css.Pizza}>
