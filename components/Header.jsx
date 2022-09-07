@@ -16,7 +16,6 @@ export default function Header() {
   }, []);
   const items = useStore((state) => state.cart.pizzas.length);
 
-
   return (
     <>
       <div className={css.header}>
@@ -35,7 +34,7 @@ export default function Header() {
               <a href="#MenuSection">MENU </a>
             </li>
             <li>
-              <a href=""> CONTACT </a>
+              <a href="/signUp"> Hello,sign in </a>
             </li>
           </ul>
         </div>
@@ -47,10 +46,10 @@ export default function Header() {
             </div>
           </Link>
 
-            <div className={css.cart}>
-              <UilReceipt size={35} color="#2e2e2e" />
-              <div className={css.badge}>{1}</div>
-            </div>
+          <div className={css.cart}>
+            <UilReceipt size={35} color="#2e2e2e" />
+            <div className={css.badge}>{1}</div>
+          </div>
         </div>
       </div>
     </>

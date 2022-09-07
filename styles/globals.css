@@ -9,6 +9,10 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+body::selection{
+  background-color: var(--themeRed);
+  color: #fff;
+}
 
 :root {
   --themeRed: #f54748;

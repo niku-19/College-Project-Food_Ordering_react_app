@@ -25,14 +25,14 @@ export default function Services() {
           <div className={css.ImageWrapper}>
             <Image src={s2} alt="" objectFit="cover" layout="intrinsic" />
           </div>
-          <span>Easy to Order</span>
+          <span>Faster Delivery</span>
           <span>Delivery Is Always On Time Even Faster</span>
         </div>
         <div className={css.feature}>
           <div className={css.ImageWrapper}>
             <Image src={s3} alt="" objectFit="cover" layout="intrinsic" />
           </div>
-          <span>Easy to Order</span>
+          <span>Quality Assured</span>
           <span>Not Only Fast For Us, Quality Is Also Number one</span>
         </div>
       </div>
